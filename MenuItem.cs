@@ -14,13 +14,13 @@ namespace MK_RestaurantMenu
         // ToDo - COMPLETED - make this an enum
         private Category categoryName;
         private int id = 0;
-        private static int nextMenuId = 0;
+        private static int nextMenuItemId = 0;
 
 
         public MenuItem()
         {
-            id = nextMenuId;
-            nextMenuId++;
+            id = nextMenuItemId;
+            nextMenuItemId++;
 
             creationDate = DateTime.Now;
         }
